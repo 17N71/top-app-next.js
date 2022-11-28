@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+
+	color: inherit;
+}
+* {
+	box-sizing: border-box;
+}
+input,
+button,
+select,
+option {
+	outline: none;
+	border: none;
+}
+.main {
+}
